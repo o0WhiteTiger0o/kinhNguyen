@@ -1,0 +1,170 @@
+/* 
+
+1.https://i.pinimg.com/originals/4b/72/7c/4b727c27184b068c7f32d02c73fe0f29.jpg
+2.https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ4eaU9LGhrj4yYFZPVcnPfbLRaPDoPSiv5bO-h0h_NpHAt_kkG
+3.https://elysianhunter.files.wordpress.com/2012/07/catholic-art.jpg
+4.https://i.pinimg.com/474x/5f/4a/c3/5f4ac30ee7f096092450359f6d9d0d79.jpg
+5.https://canhdongtruyengiao.net/wp-content/uploads/2016/03/000001aaabbai1.jpg
+6.https://tgpsaigon.net/Images/Articles/MainImages/18122018_092211.jpg
+
+*/
+body {
+  font-size: 62.8%;
+  background-attachment: fixed;
+  background-image: url("https://elysianhunter.files.wordpress.com/2012/07/catholic-art.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 1000px) {
+  body {
+    background-position-x: center;
+    background-position-y: unset;
+  }
+}
+
+@media (max-width: 800px) {
+  body {
+    background-image: url("https://i.pinimg.com/564x/fb/3c/45/fb3c458acae4d0cf6cbe0d0f6ec4d16d.jpg");
+    background-position-x: center;
+    background-position-y: unset;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    background-image: url("https://i.pinimg.com/474x/5f/4a/c3/5f4ac30ee7f096092450359f6d9d0d79.jpg");
+    background-position-x: center;
+    background-position-y: unset;
+  }
+}
+
+@media (max-width: 500px) {
+  #topNav {
+    overflow: hidden;
+    position: relative;
+    height: 50px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: lightslategrey;
+    opacity: 50%;
+  }
+}
+
+@media (max-width: 500px) {
+  #topNav a.icon {
+    display: block;
+    color: white;
+    font-size: 2rem;
+    padding: 3%;
+    text-align: center;
+    width: 7%;
+  }
+}
+
+#topNav nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 50px;
+  width: 100%;
+  background-color: darkgreen;
+  opacity: 70%;
+  color: white;
+  font-size: 2rem;
+}
+
+@media (max-width: 500px) {
+  #topNav nav {
+    display: none;
+  }
+}
+
+#topNav nav a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+@media (max-width: 500px) {
+  #topNav nav a {
+    display: block;
+  }
+}
+
+#topNav nav a:visited {
+  color: white;
+}
+
+#topNav nav a:active {
+  color: white;
+}
+
+#topNav nav a:hover {
+  background-color: yellow;
+  color: red;
+}
+
+.main {
+  background-color: lightgrey;
+  min-height: 100%;
+  width: 90%;
+  margin: 0 5%;
+  opacity: 70%;
+}
+
+.main p, .main h1 {
+  font-size: 3rem;
+  text-align: justify;
+  color: teal;
+  padding: 5%;
+}
+
+@media (max-width: 500px) {
+  .main p, .main h1 {
+    font-size: 2rem;
+  }
+}
+
+.main h1 {
+  text-align: center;
+  font-size: 6rem;
+  color: darkred;
+}
+
+@media (max-width: 500px) {
+  .main h1 {
+    font-size: 4rem;
+  }
+}
+/*# sourceMappingURL=index.css.map */

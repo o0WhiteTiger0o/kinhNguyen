@@ -1,0 +1,142 @@
+@import 'mixin';
+// list of background
+/* 
+
+1.https://i.pinimg.com/originals/4b/72/7c/4b727c27184b068c7f32d02c73fe0f29.jpg
+2.https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ4eaU9LGhrj4yYFZPVcnPfbLRaPDoPSiv5bO-h0h_NpHAt_kkG
+3.https://elysianhunter.files.wordpress.com/2012/07/catholic-art.jpg
+4.https://i.pinimg.com/474x/5f/4a/c3/5f4ac30ee7f096092450359f6d9d0d79.jpg
+5.https://canhdongtruyengiao.net/wp-content/uploads/2016/03/000001aaabbai1.jpg
+6.https://tgpsaigon.net/Images/Articles/MainImages/18122018_092211.jpg
+
+*/
+body{
+    font-size: 62.8%;
+    background-attachment: fixed;
+    background-image: url('https://elysianhunter.files.wordpress.com/2012/07/catholic-art.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:0;
+    padding:0;
+    @media(max-width: 1000px){
+        background-position-x: center;
+        background-position-y: unset;
+    }
+    @media(max-width: 800px){
+        background-image: url('https://i.pinimg.com/564x/fb/3c/45/fb3c458acae4d0cf6cbe0d0f6ec4d16d.jpg');
+        background-position-x: center;
+        background-position-y: unset;
+    }
+    @media(max-width: 500px){
+        background-image: url('https://i.pinimg.com/474x/5f/4a/c3/5f4ac30ee7f096092450359f6d9d0d79.jpg');
+        background-position-x: center;
+        background-position-y: unset;
+    }
+}
+
+#topNav{
+    @media(max-width: 500px){
+        overflow: hidden;
+        position: relative;
+        height: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        background-color: lightslategrey;
+        opacity: 50%;
+    }
+    
+    a.icon{
+        @media(max-width: 500px){
+            display: block;
+            color: white;
+            font-size: 2rem;
+            padding:3%;
+            text-align: center;
+            width:7%;
+        }
+    
+    }
+
+
+}
+
+
+
+
+#topNav nav{
+    @include nav-Flex-Center(center, center);
+    height: 50px;
+    width: 100%;
+    background-color: darkgreen;
+    opacity: 70%;
+    color: white;
+    font-size: 2rem;
+    @media(max-width: 500px){
+        display: none;
+
+    }
+    a{
+        @include linkNav-Flex-Center(center, space-evenly);
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        text-decoration: none;
+        @media(max-width: 500px){
+            display: block;
+        }
+
+    }
+
+
+
+
+
+
+    a:visited{
+        color: white;
+    }
+
+    a:active{
+        color: white;
+
+    }
+
+    a:hover{
+        background-color: yellow;
+        color: red;
+
+    }
+}
+
+.main{
+    background-color: lightgrey;
+    min-height: 100%;
+    width: 90%;
+    margin: 0 5%;
+    opacity: 70%;
+
+    p,h1{
+        font-size: 3rem;
+        text-align: justify;
+        color: 		teal;
+        padding:5%;
+        @media(max-width: 500px){
+            font-size: 2rem;
+
+        }
+    }
+
+    h1{
+        text-align: center;
+        font-size: 6rem;
+        color: 	darkred;
+        @media(max-width: 500px){
+            font-size: 4rem;
+
+        }
+
+    }
+}

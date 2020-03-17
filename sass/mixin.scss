@@ -1,0 +1,12 @@
+@mixin nav-Flex-Center($content,$items){
+    display:flex;
+    justify-content: $content;
+    align-items: $items;
+    justify-content: space-evenly;
+}
+
+@mixin linkNav-Flex-Center($items, $space){
+    display:flex;
+    align-items: $items;
+    justify-content: $space;
+}
