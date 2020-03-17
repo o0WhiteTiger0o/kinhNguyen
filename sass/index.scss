@@ -38,7 +38,7 @@ body{
     @media(max-width: 500px){
         overflow: hidden;
         position: relative;
-        height: 50px;
+        height: auto;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -68,7 +68,7 @@ body{
 
 #topNav nav{
     @include nav-Flex-Center(center, center);
-    height: 50px;
+    height: auto;
     width: 100%;
     background-color: darkgreen;
     opacity: 70%;
@@ -76,6 +76,8 @@ body{
     font-size: 2rem;
     @media(max-width: 500px){
         display: none;
+        position: relative;
+
 
     }
     a{

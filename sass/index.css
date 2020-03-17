@@ -45,7 +45,7 @@ body {
   #topNav {
     overflow: hidden;
     position: relative;
-    height: 50px;
+    height: auto;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -86,7 +86,7 @@ body {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  height: 50px;
+  height: auto;
   width: 100%;
   background-color: darkgreen;
   opacity: 70%;
@@ -97,6 +97,7 @@ body {
 @media (max-width: 500px) {
   #topNav nav {
     display: none;
+    position: relative;
   }
 }
 
@@ -171,9 +172,5 @@ body {
 
 .main b {
   color: darkblue;
-}
-
-.main strong {
-  color: 'red';
 }
 /*# sourceMappingURL=index.css.map */
