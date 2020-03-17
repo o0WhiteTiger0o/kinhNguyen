@@ -141,6 +141,7 @@ body {
   width: 90%;
   margin: 0 5%;
   opacity: 70%;
+  border-radius: 25px;
 }
 
 .main p, .main h1 {
