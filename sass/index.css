@@ -140,7 +140,7 @@ body {
   min-height: 100%;
   width: 90%;
   margin: 0 5%;
-  opacity: 70%;
+  opacity: 80%;
   border-radius: 25px;
 }
 
@@ -167,5 +167,13 @@ body {
   .main h1 {
     font-size: 4rem;
   }
+}
+
+.main b {
+  color: darkblue;
+}
+
+.main strong {
+  color: 'red';
 }
 /*# sourceMappingURL=index.css.map */
