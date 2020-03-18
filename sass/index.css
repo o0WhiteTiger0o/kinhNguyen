@@ -14,18 +14,13 @@ body {
   background-image: url("https://elysianhunter.files.wordpress.com/2012/07/catholic-art.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: unset;
   margin: 0;
   padding: 0;
 }
 
 @media (max-width: 1000px) {
-  body {
-    background-position-x: center;
-    background-position-y: unset;
-  }
-}
-
-@media (max-width: 800px) {
   body {
     background-image: url("https://i.pinimg.com/564x/fb/3c/45/fb3c458acae4d0cf6cbe0d0f6ec4d16d.jpg");
     background-position-x: center;
